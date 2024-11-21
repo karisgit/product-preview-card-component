@@ -35,10 +35,10 @@ img {
   --BUTTON-TEXT: bold 0.875rem var(--FF1);
   --OVERLINE: 500 0.75rem var(--FF1);
   --OVERLINE-LS: 0.3125rem;
-  --STRIKE: 500 .8125rem;
+  --STRIKE: 500 .8125rem/1.4375rem var(--FF1);
 
   /* mobile */
-  --STRIKE:  font: 500 .8125rem/1.4375rem var(--FF1);;
+  --STRIKE: 500 .8125rem/1.4375rem var(--FF1);
 }
 
 /* || UTILITY CLASSES */
@@ -151,10 +151,6 @@ a:any-link {
   color: var(--DEEP-AQUAMARINE);
 }
 
-.product-card__original-price {
-  font: var(--STRIKE);
-  color: var(--DEEP-AQUAMARINE);
-}
 
 .product-card__original-price {
   font: var(--STRIKE);
